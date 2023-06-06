@@ -1,0 +1,61 @@
+#container
+{
+    font-family: Helvetica, sans-serif;
+    background-color: linen;
+    color: #222;
+    margin: auto;
+    width: 90%;
+}
+
+#header-left, #header-right
+{
+    background-color: #000;
+    color: #fff;
+    width: 50%;
+    height: 100px;
+    float:left;
+}
+
+main
+{
+    padding: 20px;
+}
+
+footer
+{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+table
+{
+    margin: 40px;
+}
+
+td
+{
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+a
+{
+    color: #aaa;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #fff;
+}
+
+li
+{
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    border-bottom: solid 1px #fff;
+}

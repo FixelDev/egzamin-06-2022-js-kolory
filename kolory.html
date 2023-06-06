@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styl2.css">
+    <title>Pomocnik CSS</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <section id="header-left">
+                <h1>Pomocnik CSS</h1>
+            </section>
+
+            <section id="header-right">
+                <ul>
+                    <li><a href="kolory.html">Kolory</a></li>
+                    <li><a href="czcionki.html">Czcionki</a></li>
+                    <li><a href="style.html">Style CSS</a></li>
+                    <li><a href="https://www.w3schools.com/css/" target="_blank">Pomoc</a></li>
+                </ul>
+            </section>
+        </header>
+
+        <main>
+            <h2>Podaj składową H koloru w kodzie HSL</h2>
+            <p>0 do 30 czerwienie, do 60 żółcie, do 150 zielenie, do 250 niebieskie, do 360 fiolet i purpura</p>
+
+            <img src="kolory.jpg" alt="Przestrzeń barw HSL">
+
+            <input type="number" max="360" placeholder="0 - 360" id="color-input">
+            <button id="btn" onClick="generateColors();">Generuj paletę</button>
+
+            <table>
+                <tr>
+                    <td id="color1" colspan="4">Kolor główny</td>
+                </tr>
+                <tr>
+                    <td id="color2">kolor2</td>
+                    <td id="color3">kolor3</td>
+                    <td id="color4">kolor4</td>
+                    <td id="color5">kolor5</td>
+                </tr>
+            </table>
+        </main>
+
+        <footer>
+            <p>Autor: Ja</p>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
